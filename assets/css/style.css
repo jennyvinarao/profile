@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Aref Ruqaa', serif;
+}
+
+/*start of jumbotron section*/
+#port-jumbo {
+	background-color: rgba(19, 68, 8, 0.2);
+	border-radius: 10rem 105rem;
+	width: 60%;
+	padding: 8em 4em;
+	box-shadow: 6px 1px 14px grey;
+
+}
+
+#jumbo-div {
+	padding-top: 10%;
+	height: 100vh;
+	/*background-color: #333; /*off black*/
+	background-image: url(../../assets/images/bg2.jpg);
+	background-position: cover;
+	background-size: 100% 100%;
+	border-radius: 0; /*to remove jumbotron's rounded corners*/
+}
+
+.jumbotron h1 {
+	color: #f2f2f2;/* off white*/
+	text-shadow: 2px -2px 3px #124008;
+}
+.jumbotron p {
+	color: #f2f2f2;/* off white*/
+	text-shadow: 2px -2px 3px #124008;
+}
+
+.btn a {
+	color: #f2f2f2;/* off white*/
+}
+
+
+#links .link {
+	border-radius: 70%;
+	background-color: green;
+/*	width: 100%;*/
+	color: white;
+	font-size: 20px;
+
+}
+
+
+.link-btn {
+	background-color: rgba(19, 68, 8, 0.7);
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 1px dotted darkgreen;
+	padding: 20px;
+	display: inline-block;
+}
+
+#links .link:hover {
+	background-color: white;
+	color: violet;	
+}	
+/*end of jumbotron section*/
+/*start of portfolio section*/
+#works {
+	height: 100vh;
+	background-image: url(../../assets/images/bg3.jpeg);
+	background-size: 100% 100%;
+}
+
+/*end of portfolio section*/
+
+/*start of about section*/
+#about {
+	height: 100vh;
+	background-image: url(../../assets/images/bg3.jpeg);
+	background-size: 100% 100%;
+}
+
+/*end of about section*/
+
+/*start of connect section*/
+#connect {
+	height: 100vh;
+	background-image: url(../../assets/images/bg3.jpeg);
+	background-size: 100% 100%;
+}
+
+/*end of connect section*/
+
+
+@media only screen and (max-width: 450px) {
+
+}
+@media only screen and (min-width: 451px) and (max-width: 768px){
+
+}
